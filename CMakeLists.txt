@@ -8,8 +8,3 @@ set(CMAKE_CXX_STANDARD 17)
 set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
 set(INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
 add_subdirectory(src)
-
-# -- EXAMPLES --
-
-# set(EXAMPLES_DIR ${CMAKE_SOURCE_DIR}/examples)
-# add_subdirectory(examples)
