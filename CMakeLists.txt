@@ -1,8 +1,8 @@
 # -- PROJECT INFORMATION --
-cmake_minimum_required(VERSION 3.0.0)
-# project(projectName VERSION 0.1.0)
+cmake_minimum_required(VERSION 3.20.0)
+project(projectName VERSION 0.1.0)
 # Another variant if you need CUDA (needed for compiling CUDA kernel files: *.cu, *.cuh):
-project(projectName VERSION 0.1.0 LANGUAGES CUDA CXX)
+# project(projectName VERSION 0.1.0 LANGUAGES CUDA CXX)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
