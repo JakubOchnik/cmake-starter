@@ -35,3 +35,8 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${INCLUDE_DIR})
 # message(STATUS "OpenCV include dir: ${OpenCV_INCLUDE_DIRS}")
 # target_include_directories(${PROJECT_NAME} PUBLIC ${OpenCV_INCLUDE_DIRS})
 # target_link_libraries(${PROJECT_NAME} PUBLIC ${OpenCV_LIBS})
+
+# * GTest
+# find_package(GTest REQUIRED)
+# target_link_libraries(${PROJECT_NAME} gtest::gtest)
+# enable_testing()

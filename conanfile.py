@@ -5,7 +5,7 @@ class CMakeSample(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     generators = "CMakeToolchain", "CMakeDeps"
     build_policy = "missing"
-    requires = "opencv/4.12.0"
+    requires = "opencv/4.12.0", "gtest/1.17.0"
     options = {
         "shared": [True, False]
     }
